@@ -1,11 +1,11 @@
-import { Box, Flex, Text, HStack, VStack } from '@chakra-ui/react'
+import { Box, Text, VStack } from '@chakra-ui/react'
 import { useState } from 'react'
 import BudgetSvg, { ChatSvg, HomeSvg, Profile, ReportSvg } from '../Svgs/Svg'
 import { Link, useLocation } from 'react-router-dom'
 
 
 const Menu = () => {
-    const [selectedIndex, setSelectedIndex] = useState(0)
+    const [, setSelectedIndex] = useState(0)
     const location = useLocation()
     const path = location.pathname
 

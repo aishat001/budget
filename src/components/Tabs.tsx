@@ -1,4 +1,4 @@
-import { Box, Stack, VStack, Text, HStack, Flex, useBreakpointValue } from "@chakra-ui/react"
+import { Box, VStack, Text, HStack, Flex, useBreakpointValue } from "@chakra-ui/react"
 import { useState } from "react"
 import { Dots } from "../Svgs/Svg"
 

@@ -1,4 +1,4 @@
-import { Box, Heading, Stack } from "@chakra-ui/react"
+import { Box, Heading } from "@chakra-ui/react"
 
 const Chat = () => {
   return (

@@ -2,10 +2,7 @@ import { Text, HStack, Heading, VStack, CircularProgress, CircularProgressLabel,
 import { CatIcon1, CatIcon2 } from "../Svgs/Svg"
 
 const Category = () => {
-    const headingFontSize = useBreakpointValue({ base: '18px', md: '21px' });
-    const textFontSize = useBreakpointValue({ base: '12px', md: '14px' });
-    const circularProgressSize = useBreakpointValue({ base: '40px', md: '50px' });
-    const labelFontSize = useBreakpointValue({ base: '24px', md: '36px' });
+ 
     const size = useBreakpointValue({ base: '50px', sm: '70px' });
   
   
